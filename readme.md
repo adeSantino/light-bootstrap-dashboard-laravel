@@ -4,9 +4,9 @@
 
 *Frontend version*: Light Bootstrap Dashboard v2.1.1. More info at https://www.creative-tim.com/product/light-bootstrap-dashboard/?ref=lbdl-readme
 
-[<img src="https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg?1567087339" width="100%" />](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg" width="100%" />](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel) 
 
-Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 8.x and up.
+Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 9.x and up.
 
 ## Note
 
@@ -21,7 +21,7 @@ If you don't already have an Apache local environment with PHP and MySQL, use on
  - Mac: https://wpshout.com/quick-guides/how-to-install-mamp-on-your-mac/
 
 Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md   
-And Laravel: https://laravel.com/docs/8.x/installation
+And Laravel: https://laravel.com/docs/9.x/installation
 
 ## Installation
 
@@ -31,7 +31,7 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 
 1. `Cd` to your Laravel app  
 2. Type in your terminal: `composer require laravel/ui` and `php artisan ui vue --auth`
-3. Install this preset via `composer require laravel-frontend-presets/light-bootstrap`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
+3. Install this preset via `composer require laravel-frontend-presets/light-bootstrap`. No need to register the service provider. Laravel 9.x can auto detect the package.
 4. Run `php artisan ui light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
 5. In your terminal run `composer dump-autoload`
@@ -66,7 +66,7 @@ You can access the dashboard either by using the "**Dashboard**" link in the lef
 
 You have the option to edit the current logged in user's profile (change name, email and password). To access this page just click the "**User profile**" link in the left sidebar or by adding **/profile** in the url.
 
-The `App\Htttp\Controlers\ProfileController` handles the update of the user information. 
+The `App\Http\Controllers\ProfileController` handles the update of the user information. 
 
 ```
 public function update(ProfileRequest $request)
@@ -417,9 +417,8 @@ We use GitHub Issues as the official bug tracker for the Light Bootstrap Dashboa
 
 ## Licensing
 
-- Copyright 2019 Creative Tim (https://www.creative-tim.com/?ref=lbdl-readme)
-- [Creative Tim License](https://www.creative-tim.com/license?ref=lbdl-readme).
-
+- Copyright Creative Tim (https://www.creative-tim.com/?ref=lbdl-readme)
+- Licensed under MIT (https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/blob/master/license.md)
 
 ## Useful Links
 
