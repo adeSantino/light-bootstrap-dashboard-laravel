@@ -23,3 +23,7 @@ All notable changes to `Light Bootstrap Dashboard` frontend preset for Laravel w
 ## Version 1.0.4 - 2022-03-28
 
 - Update to Laravel 9.x
+
+## Version 1.1.0 - 2024-05-27
+
+- Update to Laravel 11.x
